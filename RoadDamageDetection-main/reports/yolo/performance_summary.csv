@@ -1,0 +1,5 @@
+Metric,Validation Set,Test Set
+mAP50,0.8418,0.8254
+mAP50-95,0.6816,0.6702
+Precision,0.8523,0.8744
+Recall,0.7805,0.7555
