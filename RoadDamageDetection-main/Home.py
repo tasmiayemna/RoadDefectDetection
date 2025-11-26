@@ -54,6 +54,7 @@ st.markdown(
     | **Pothole** | Circular holes or depressions in pavement | YOLO + ResNet |
     | **Patching** | Previously repaired areas with different materials | YOLO + ResNet |
     | **Rutting** | Longitudinal depressions caused by wheel loading | YOLO + ResNet |
+    | **Raveling** | Surface aggregate loss in asphalt pavements | ResNet |
 
     ### 🚀 **Getting Started**
 
@@ -79,7 +80,7 @@ st.markdown(
 
     ### 🔬 **Technical Specifications**
 
-    - **YOLO Model**: YOLOv12 Nano - Latest architecture with improved accuracy
+    - **YOLO Model**: YOLOv12 Medium - Latest architecture with improved accuracy
     - **Training Details**: 300 epochs, 3,386 training images, 640x640 resolution
     - **Dataset Split**: 70% train / 20% validation / 10% test (4,844 total images)
     - **ResNet Model**: ResNet50 with transfer learning - Deep feature extraction
@@ -90,12 +91,12 @@ st.markdown(
     ---
 
     ### 📚 **Documentation & Resources**
-    - 🌐 **Project Repository**: [GitHub - RoadDamageDetection](https://github.com/achilis1505/RoadDamageDetection)
+    - 🌐 **Project Repository**: [GitHub - RoadDefectDetection](https://github.com/tasmiayemna/RoadDefectDetection)
     - 📧 **Contact**: tasmiayemna@gmail.com
-    - 📖 **Framework Credits**: Built with [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) and [Streamlit](https://streamlit.io/)
+    - 📖 **Framework Credits**: Built with [Ultralytics YOLOv12](https://github.com/ultralytics/ultralytics) and [Streamlit](https://streamlit.io/)
 
     ### ⚖️ **License & Attribution**
-    - YOLOv8: Licensed under AGPL-3.0 by [Ultralytics](https://github.com/ultralytics/ultralytics)
+    - YOLOv12: Licensed under AGPL-3.0 by [Ultralytics](https://github.com/ultralytics/ultralytics)
     - Streamlit: Licensed under Apache 2.0 by [Streamlit Inc.](https://streamlit.io/)
     - ResNet: PyTorch implementation with ImageNet pre-trained weights
 
